@@ -23,9 +23,11 @@ console.log(petNames);
 
 //tell the user the array index where "Riley" is located in the array.
 alert(petNames.indexOf('Riley'));
+console.log(petNames.indexOf('Riley'));
 
 //tell the user the array index where "Cindy" is located. This should return-1 since "Cindy" is not in the array.
 alert(petNames.indexOf('Cindy'));
+console.log(petNames.indexOf('Cindy'));
 
 //show the 'withMarmaduke' array data.
 console.log(withMarmaduke);
