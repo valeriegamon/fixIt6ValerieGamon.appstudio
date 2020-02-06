@@ -63,3 +63,12 @@ allPets.push('Ted', 'Fred', 'Jed', 'Ned', 'Ed', 'Zed');
 console.log(petNames);
 console.log(allPets);
 console.log(`The action taken was: Add Ted, Fred, Jed, Ned, Ed, Zed to a new array. \n The remaining data are: \n ${allPets}. `);
+
+//Using the array method .join(), create a string variable named stringPets 
+//it holds all of the pet names separated by commas. That is, one big long string in this format:
+//"Bob, Sam, Andy"
+
+
+
+
+
