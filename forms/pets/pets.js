@@ -39,9 +39,3 @@ console.log(`The action taken was: "Tell user where Cindy is located in the arra
 
 //show the 'withMarmaduke' array data.
 console.log(withMarmaduke);
-
-
-
-
-
-
