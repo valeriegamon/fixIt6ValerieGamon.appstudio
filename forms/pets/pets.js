@@ -1,7 +1,6 @@
 let petNames = ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 'Marge', 'Sam']; 
 let withMarmaduke = ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 'Marge', 'Sam', 'Marmaduke']
 
-
 //just to check the arrays and what is in them
 console.log(petNames);
 console.log(withMarmaduke);
@@ -10,7 +9,6 @@ console.log(withMarmaduke);
 let removeVinny = petNames.splice(5, 1);
 console.log(petNames);
 console.log(`The action taken was: Remove "Vinny." \n The remaining data are: \n ${petNames}. `);
-
 
 //remove "Marty" from the array.
 let removeMarty = petNames.splice(3, 1);
@@ -42,6 +40,8 @@ console.log(withMarmaduke);
 
 
 
+
+
 //AB Scenario
 //Using the original 'pets' array, use the .shift() array method and output the results.
 petNames.shift();
@@ -57,13 +57,15 @@ console.log(`The action taken was: Add the name 'Barney'. \n The remaining data 
 //Add the array below to the end of the petNames array to make a new array that you name allPets. 
 //Show the new array in the output.
 //Ted, Fred, Jed, Ned, Ed, Zed
-
-
+var allPets = petNames.slice(0);
+allPets.push('Ted', 'Fred', 'Jed', 'Ned', 'Ed', 'Zed');
+console.log(petNames);
+console.log(allPets);
+console.log(`The action taken was: Add Ted, Fred, Jed, Ned, Ed, Zed to a new array. \n The remaining data are: \n ${allPets}. `);
 
 //Using the array method .join(), create a string variable named stringPets 
 //it holds all of the pet names separated by commas. That is, one big long string in this format:
 //"Bob, Sam, Andy"
-
 
 
 //Using the .unshift() array method, add the name 'Agnes' to the petNames array.
