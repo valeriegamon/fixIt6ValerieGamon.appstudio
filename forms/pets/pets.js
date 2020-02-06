@@ -47,6 +47,7 @@ console.log(withMarmaduke);
 petNames.shift();
 console.log(petNames);
 console.log(`The action taken was: Use the .shift() array method. \n The remaining data are: \n ${petNames}.`);
+console.log('The action taken was: Use the .shift() array method. \n The remaining data are: \n' + petNames);
 
 //Using the .unshift() array method, add the name 'Barney' to the petNames array.
 //adds to the front of the array
@@ -62,24 +63,3 @@ allPets.push('Ted', 'Fred', 'Jed', 'Ned', 'Ed', 'Zed');
 console.log(petNames);
 console.log(allPets);
 console.log(`The action taken was: Add Ted, Fred, Jed, Ned, Ed, Zed to a new array. \n The remaining data are: \n ${allPets}. `);
-
-//Using the array method .join(), create a string variable named stringPets 
-//it holds all of the pet names separated by commas. That is, one big long string in this format:
-//"Bob, Sam, Andy"
-var stringPets = allPets.slice(0);
-console.log(stringPets);
-console.log(stringPets);
-console.log(`The action taken was: Add "Bob, Sam, Andy" to a new array. \n The remaining data are: \n ${stringPets}. `);
-
-//Using the .unshift() array method, add the name 'Agnes' to the petNames array.
-
-
-
-
-//When you are completely done coding and it all works perfectly, in GH Desktop create a Pull Request.
-
-
-
-
-//Merge. GH will merge your branch (with your changes/commits) with the current master. 
-//DONE!!
