@@ -59,7 +59,6 @@ console.log(`The action taken was: Add the name 'Barney'. \n The remaining data 
 //Ted, Fred, Jed, Ned, Ed, Zed
 
 
-
 //Using the array method .join(), create a string variable named stringPets 
 //it holds all of the pet names separated by commas. That is, one big long string in this format:
 //"Bob, Sam, Andy"
