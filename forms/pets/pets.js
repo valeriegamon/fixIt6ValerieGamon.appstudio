@@ -64,7 +64,6 @@ console.log(`The action taken was: Add the name 'Barney'. \n The remaining data 
 //"Bob, Sam, Andy"
 
 
-
 //Using the .unshift() array method, add the name 'Agnes' to the petNames array.
 
 
