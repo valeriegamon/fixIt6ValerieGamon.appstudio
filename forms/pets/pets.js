@@ -43,6 +43,7 @@ console.log(withMarmaduke);
 
 
 
+
 //AB Scenario
 //Using the original 'pets' array, use the .shift() array method and output the results.
 petNames.shift();
