@@ -1,7 +1,6 @@
 let petNames = ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 'Marge', 'Sam']; 
 let withMarmaduke = ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 'Marge', 'Sam', 'Marmaduke']
 
-
 //just to check the arrays and what is in them
 console.log(petNames);
 console.log(withMarmaduke);
@@ -10,7 +9,6 @@ console.log(withMarmaduke);
 let removeVinny = petNames.splice(5, 1);
 console.log(petNames);
 console.log(`The action taken was: Remove "Vinny." \n The remaining data are: \n ${petNames}. `);
-
 
 //remove "Marty" from the array.
 let removeMarty = petNames.splice(3, 1);
