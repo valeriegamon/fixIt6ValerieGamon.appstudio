@@ -48,11 +48,11 @@ petNames.shift();
 console.log(petNames);
 console.log(`The action taken was: Use the .shift() array method. \n The remaining data are: \n ${petNames}. `);
 
-
 //Using the .unshift() array method, add the name 'Barney' to the petNames array.
-
-
-
+//adds to the front of the array
+petNames.unshift('Barney');
+console.log(petNames);
+console.log(`The action taken was: Add the name 'Barney'. \n The remaining data are: \n ${petNames}. `);
 
 //Add the array below to the end of the petNames array to make a new array that you name allPets. 
 //Show the new array in the output.
@@ -60,11 +60,9 @@ console.log(`The action taken was: Use the .shift() array method. \n The remaini
 
 
 
-
 //Using the array method .join(), create a string variable named stringPets 
 //it holds all of the pet names separated by commas. That is, one big long string in this format:
 //"Bob, Sam, Andy"
-
 
 
 
