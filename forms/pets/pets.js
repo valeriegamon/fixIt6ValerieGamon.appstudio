@@ -48,9 +48,11 @@ petNames.shift();
 console.log(petNames);
 console.log(`The action taken was: Use the .shift() array method. \n The remaining data are: \n ${petNames}. `);
 
-
 //Using the .unshift() array method, add the name 'Barney' to the petNames array.
-
+//adds to the front of the array
+petNames.unshift('Barney');
+console.log(petNames);
+console.log(`The action taken was: Add the name 'Barney'. \n The remaining data are: \n ${petNames}. `);
 
 
 
