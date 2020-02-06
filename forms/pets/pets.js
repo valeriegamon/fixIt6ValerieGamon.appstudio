@@ -1,6 +1,7 @@
 let petNames = ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 'Marge', 'Sam']; 
 let withMarmaduke = ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Saddie', 'Marge', 'Sam', 'Marmaduke']
 
+
 //just to check the arrays and what is in them
 console.log(petNames);
 console.log(withMarmaduke);
@@ -38,7 +39,6 @@ console.log(`The action taken was: "Tell user where Cindy is located in the arra
 
 //show the 'withMarmaduke' array data.
 console.log(withMarmaduke);
-
 
 
 
