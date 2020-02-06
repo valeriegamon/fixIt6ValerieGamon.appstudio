@@ -39,3 +39,44 @@ console.log(`The action taken was: "Tell user where Cindy is located in the arra
 
 //show the 'withMarmaduke' array data.
 console.log(withMarmaduke);
+
+
+
+//AB Scenario
+//Using the original 'pets' array, use the .shift() array method and output the results.
+petNames.shift();
+console.log(petNames);
+console.log(`The action taken was: Use the .shift() array method. \n The remaining data are: \n ${petNames}. `);
+
+
+//Using the .unshift() array method, add the name 'Barney' to the petNames array.
+
+
+
+
+//Add the array below to the end of the petNames array to make a new array that you name allPets. 
+//Show the new array in the output.
+//Ted, Fred, Jed, Ned, Ed, Zed
+
+
+
+
+//Using the array method .join(), create a string variable named stringPets 
+//it holds all of the pet names separated by commas. That is, one big long string in this format:
+//"Bob, Sam, Andy"
+
+
+
+
+//Using the .unshift() array method, add the name 'Agnes' to the petNames array.
+
+
+
+
+//When you are completely done coding and it all works perfectly, in GH Desktop create a Pull Request.
+
+
+
+
+//Merge. GH will merge your branch (with your changes/commits) with the current master. 
+//DONE!!
