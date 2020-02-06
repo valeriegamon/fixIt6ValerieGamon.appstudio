@@ -31,3 +31,4 @@ console.log(petNames.indexOf('Cindy'));
 
 //show the 'withMarmaduke' array data.
 console.log(withMarmaduke);
+
