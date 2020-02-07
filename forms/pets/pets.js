@@ -67,7 +67,15 @@ console.log(`The action taken was: Add Ted, Fred, Jed, Ned, Ed, Zed to a new arr
 //Using the array method .join(), create a string variable named stringPets 
 //it holds all of the pet names separated by commas. That is, one big long string in this format:
 //"Bob, Sam, Andy"
+var stringPets = ['Bob', 'Sam', 'Andy'];
+stringPets.join(', '); //should add a comma and a space
+console.log(stringPets);
+console.log(`The action taken was: Add "Bob, Sam, Andy" to a new array. \n The remaining data are: \n ${stringPets}. `);
 
+//Using the .unshift() array method, add the name 'Agnes' to the petNames array.
+petNames.unshift('Agnes');
+console.log(petNames);
+console.log(`The action taken was: Add "Agnes" to the front of the array. \n The remaining data are: \n ${petNames}. `);
 
 
 
